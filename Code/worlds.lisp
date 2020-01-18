@@ -3,7 +3,8 @@
   (:export #:sprout
            #:with-world
            #:commit
-           #:world-class))
+           #:world-class
+           #:conflict))
 (in-package :worlds)
 
 (defclass world ()
